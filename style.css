@@ -1,0 +1,159 @@
+
+body{
+   margin-top: 0px;  
+   margin:0%;
+   padding:0%;
+   background-image: url(2.jpg);
+   background-attachment: fixed;   
+   background-repeat: repeat-y;
+
+}
+
+.container{   
+    
+    width: 1100px;
+    margin: auto;
+    
+}
+/*шапка*/
+header {
+   
+    border-radius: 0px 0px 10px 10px;
+    font-size: 53px;    
+    color:white;
+    font-family: oblique;
+    font-weight: 900;
+    text-align: center;
+    padding-bottom: 0%;
+    background-color: #5F9EA0;  
+    height: 65px;
+    width:1100px;  
+    position: fixed;    
+}
+*{
+    margin:0%;
+    padding:0%;   
+}
+
+/* ширина меню */
+#menu{
+    width:210px;
+    margin-left:10px;
+
+}
+/* Стили кнопок*/
+#menu ul{ 
+    list-style:none;
+    margin-top: 0%;
+}
+#menu li{
+    list-style:none;
+    display:block;
+    line-height:32px;
+    height:32px;
+    margin-top: 14px;   
+    width:154px;   
+  
+ 
+}
+/*левая часть*/
+.left{
+    border-radius: 10px;
+    margin-top: 15%;    
+    float: left;
+    width:177px;
+    background-color: #E6E6FA;
+    height: 300px;
+    position: fixed;
+    
+}
+#menu li a{
+    display:block;
+    height:33px;
+    text-transform:uppercase;
+    font-size:16px;
+    font-weight:bold;
+    line-height:32px;    
+    padding:0 0 0 25px;
+    text-decoration:none;
+    color:white;
+    background: #5F9EA0;
+    border:solid 1px rgb(163, 163, 163);
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+ 
+/* Подсветка наведденого пункта */
+#menu li a:hover{
+    background:rgb(78, 129, 131);
+    color:rgb(255, 255, 255);
+}
+
+main{
+    border-radius: 10px;
+    display: block;
+    float: left;
+    margin-top: 75px;
+    margin-left: 190px;
+    padding: 20px;
+    width: 868px;
+    height: 666px;
+    background-color: #E6E6FA;    
+}
+.text{
+    align: left;
+    font-size: 27px;
+    text-align: justify;
+}
+.animal {
+    float: left;
+    margin: 10px;    
+}
+h2 {
+    text-align: center;
+    font-size: 33px;
+}
+#new{
+    color:red;
+    font-size: 12px;
+}
+footer{
+    width:1100px;
+    text-align: center;
+    background-color: #E6E6FA;
+    margin-top: 10px;
+    border-radius: 5px;
+    float: left; 
+}
+#auth{
+    background-color: #E6E6FA;
+    border-radius: 10px;
+    margin-top: 75px;
+    width: 177px;
+    height: 100px;
+    float: left;
+    position:fixed;
+    padding-top:11px;   
+}
+
+#auth form input{
+border-radius: 5px;
+margin:4px;
+
+}
+#submit{
+    font-size: 16px;
+    padding: 4px 4px 4px 7px;
+    float:left;
+    color:white;
+    background-color: #5F9EA0;
+}
+#registration{
+    font-size: 16px;
+    padding: 4px 4px 4px 7px;
+    float:right;
+    color:white; 
+    background-color: #5F9EA0;   
+    width:92px;
+}
